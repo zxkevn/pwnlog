@@ -1,4 +1,4 @@
-module pwnlog
+module github.com/dropk1ck/pwnlog
 
 go 1.16
 
