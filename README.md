@@ -3,7 +3,7 @@
 Dead-simple, leveled-logging in Golang, pwn style. Colors and message prefixes are as the universe intended them to be:
 
 ```
-   debug    -> <span style="color:green">[*] debugging text</span>
+   debug    -> [*] debugging text
    info     -> [+] info text
    warning  -> [-] warning text
    error    -> [!] error text
