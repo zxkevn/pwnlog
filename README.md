@@ -3,11 +3,11 @@
 Dead-simple, leveled-logging in Golang, pwn style. Colors and message prefixes are as the universe intended them to be:
 
 ```
-   debug    -> [*]
-   info     -> [+]
-   warning  -> [-]
-   error    -> [!]
-   fatal    -> [!!] (followed by death of program)
+   debug    -> <span style="color:green">[*] debugging text</span>
+   info     -> [+] info text
+   warning  -> [-] warning text
+   error    -> [!] error text
+   fatal    -> [!!] fatal error text (followed by death of program)
 ```
 
 Example usage:
@@ -24,4 +24,9 @@ Example usage:
     // goodbye program
     logger.Fatal("F A T A L")
 ```
+
+which produces the following:
+
+![pwnlog screenshot](screenshot.png)
+
 
